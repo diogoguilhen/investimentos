@@ -76,7 +76,7 @@ def cria_df( dataframe, nomearquivo, colunas, caminho = None ):
     df = df_cleasing_all(df, nomearquivo)
     df.to_csv(nmArquivo, mode='a', index=False, header =(not os.path.exists(caminho)) )
     print(nomearquivo)
-    print(df)
+    #print(df)
 
 def scrappingSuno(pagina, usuario, senha ):
     with sync_playwright() as p:
