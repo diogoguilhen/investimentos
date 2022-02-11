@@ -7,7 +7,7 @@ library(tidyverse)
 
 getwd()
 
-setwd("C:/Users/sguil/OneDrive/R")
+setwd("C:/Users/sguil/OneDrive/investimentos2/OriginalScrappingCartao")
 
 getwd()
 
@@ -19,12 +19,13 @@ tabela <- html_nodes(page,".timeline-default .ng-scope" ) %>%
     data_frame(
       Data =  html_nodes(.x,".date-timeline") %>% html_text(trim=T),
       Estabelecimento =  html_nodes(.x,".colun01 .ng-binding") %>% html_text(trim=T),
-      Valor =  html_nodes(.x,".timeline-info .colun04 .ng-binding") %>% html_text(trim=T) 
+      Valor =  html_nodes(.x,".timeline-info .colun04 .ng-binding") %>% html_text(trim=T),
+      Origem =  (html_nodes(.x,".timeline-info .colun03 .ng-binding") %>% html_text(trim=T))
     )
   }) 
-
- tabela 
-
+ 
+ tabela
+ 
 write.csv(tabela, file="original2.csv",col.names = T, sep="|")
 
 
