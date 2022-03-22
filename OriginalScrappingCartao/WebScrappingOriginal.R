@@ -27,5 +27,3 @@ tabela <- html_nodes(page,".timeline-default .ng-scope" ) %>%
  tabela
  
 write.csv(tabela, file="original2.csv",col.names = T, sep="|")
-
-
