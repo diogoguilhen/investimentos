@@ -1,0 +1,21 @@
+{
+  "name": "investimentos2",
+  "version": "1.0.0",
+  "description": "Este topico foi criado para uso pessoal visando apenas o aprendizado no python para extração e scrapping :)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diogoguilhen/investimentos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diogoguilhen/investimentos/issues"
+  },
+  "homepage": "https://github.com/diogoguilhen/investimentos#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.29.1"
+  }
+}
