@@ -4,3 +4,14 @@ node_modules/
 /test-results/
 /playwright-report/
 /playwright/.cache/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+booker/__pycache__/processos.cpython-38.pyc
+.gitignore
+booker/__pycache__/dates.cpython-38.pyc
+booker/__pycache__/processo.cpython-38.pyc
+package-lock.json
+package.json
+playwright.config.ts
+*.yml

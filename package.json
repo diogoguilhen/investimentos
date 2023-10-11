@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/diogoguilhen/investimentos#readme",
   "devDependencies": {
-    "@playwright/test": "^1.29.1"
+    "@playwright/test": "^1.37.1"
   }
 }
